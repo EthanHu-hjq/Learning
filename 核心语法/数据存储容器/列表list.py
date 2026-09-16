@@ -63,8 +63,8 @@
 # print(f"average value: {average_value}")
 
 # 示例2：合并列表并去重
-#list_int1 = [12, 2, 23, 14, 55, 26, 87, 18, 9, 13]
-#list_int2 = [16, 1, 23, 4, 55, 21, 87, 19, 9, 17]
+list_int1 = [12, 2, 23, 14, 55, 26, 87, 18, 9, 13]
+list_int2 = [16, 1, 23, 4, 55, 21, 87, 19, 9, 17]
 #print(list_int1)
 #print(list_int2)
 #print(f"set方法不保证顺序{list(set(list_int1+list_int2))}")
@@ -77,8 +77,8 @@
 #print(f"循环方法（保持顺序）: {result2}")
 
 # 方法3： dict.fromkeys 保持原有顺序
-#result3 = list(dict.fromkeys(list_int1 + list_int2))
-#print(f"dict.fromkeys(保持原先列表顺序) : {result3}")
+# result3 = list(dict.fromkeys(list_int1 + list_int2))
+# print(f"dict.fromkeys(保持原先列表顺序) : {result3}")
 
 # 示例3：按照一定规则快速生成一个列表的方法 --> 语法格式：[要插入的值 for i in 序列、列表]
 # 列表推导式
@@ -87,11 +87,11 @@
 
 # 示例4：从一个数字列表中提取所有偶数，并计算其平方，组成一个新列表
 # 列表推导式 --> [要插入的值 for i in list if]
-# import random
-# num_list3 = [random.randint(1,10) for i in range(10)]
-# print(num_list2)
-# num_list3 = [i**2 for i in num_list2 if i%2==0]
-# print(num_list3)
+import random
+num_list2 = [random.randint(1,10) for i in range(10)]
+print(num_list2)
+num_list3 = [i**2 for i in num_list2 if i%2==0]
+print(num_list3)
 
 # 练习1：将如下多个列表合并为一个列表并去重，升序后输出
 # list1 = ['m','a','c','e','l','h']
