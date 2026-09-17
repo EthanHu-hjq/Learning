@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\Project\\Git\\Learning\\WMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\views\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\views\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,32 +47,94 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "WMS\\Views\\MainView.xaml",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Views\\MainView.xaml",
+              "RelativeToolTip": "WMS\\Views\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-17T06:02:30.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "WMS\\Views\\LoginView.xaml.cs",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "WMS\\Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T01:09:25.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WMS\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "WMS\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T00:23:05.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "WMS\\Views\\LoginView.xaml",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Views\\LoginView.xaml",
+              "RelativeToolTip": "WMS\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-17T00:22:30.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\App.xaml",
+              "RelativeDocumentMoniker": "WMS\\App.xaml",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\App.xaml",
+              "RelativeToolTip": "WMS\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-17T00:18:04.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MemberService.cs",
               "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Services\\MemberService.cs",
               "RelativeDocumentMoniker": "WMS\\Services\\MemberService.cs",
               "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Services\\MemberService.cs",
               "RelativeToolTip": "WMS\\Services\\MemberService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T07:34:29.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\App.xaml.cs",
               "RelativeDocumentMoniker": "WMS\\App.xaml.cs",
               "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\App.xaml.cs",
               "RelativeToolTip": "WMS\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABQwC8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T03:23:32.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Member.cs",
               "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Entities\\Member.cs",
               "RelativeDocumentMoniker": "WMS\\Entities\\Member.cs",

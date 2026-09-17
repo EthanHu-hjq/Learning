@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="WMS.Views.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WMS.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style TargetType="RadioButton" x:Key="MenuStyle">
+            <Setter Property="Width" Value="auto"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Background" Value="Transparent"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <!-- 关键：模板根元素必须把 Background 绑定出来，
+                             否则 Style / Trigger 里设置的 Background 没有任何元素去呈现（触发器是生效的，只是"看不见"）。
+                             绑定后整行 50px 区域都可命中，鼠标移入文字空白处也能触发 IsMouseOver。 -->
+                        <Grid Background="{TemplateBinding Background}"
+                              Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Foreground="{TemplateBinding Foreground}"
+                                       Text="{TemplateBinding Tag}" Margin="5,0,5,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock Grid.Column="1" Foreground="{TemplateBinding Foreground}"
+                                       Margin="0,0,5,0" Text="{TemplateBinding Content}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Grid>
+
+                        <ControlTemplate.Triggers>
+                            <!-- 注意：多个触发器同时为真时，后声明的优先级更高（此处"选中"会覆盖"悬停"） -->
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#A1C9D6"/>
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter Property="Background" Value="#92B6C2"/>
+                            </Trigger>
+                            <!-- 禁用态：避免继承悬停/选中样式造成"看起来还能点"的误解 -->
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Setter Property="Foreground" Value="Gray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Vertical" Background="LightGreen">
+            <TextBlock Text="Main View" Margin="10"/>
+            <RadioButton Content="首页" Tag="🏠" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="用户管理" Tag="👤" Style="{StaticResource MenuStyle}"/>
+        </StackPanel>
+        <ContentControl x:Name="mainRegion" Grid.Column="1"/>
+    </Grid>
+</UserControl>
