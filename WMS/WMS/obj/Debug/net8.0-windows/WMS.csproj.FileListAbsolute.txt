@@ -150,3 +150,7 @@ D:\Project\Git\Learning\WMS\WMS\obj\Debug\net8.0-windows\Views\LoginView.baml
 D:\Project\Git\Learning\WMS\WMS\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\Project\Git\Learning\WMS\WMS\obj\Debug\net8.0-windows\Views\MainView.g.cs
 D:\Project\Git\Learning\WMS\WMS\obj\Debug\net8.0-windows\Views\MainView.baml
+D:\Project\Git\Learning\WMS\WMS\obj\Debug\net8.0-windows\Views\CargoView.g.cs
+D:\Project\Git\Learning\WMS\WMS\obj\Debug\net8.0-windows\Views\IndexView.g.cs
+D:\Project\Git\Learning\WMS\WMS\obj\Debug\net8.0-windows\Views\CargoView.baml
+D:\Project\Git\Learning\WMS\WMS\obj\Debug\net8.0-windows\Views\IndexView.baml

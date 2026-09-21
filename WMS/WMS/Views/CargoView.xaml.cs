@@ -12,21 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WMS.ViewModels;
 
 namespace WMS.Views
 {
     /// <summary>
-    /// MainView.xaml 的交互逻辑
+    /// CargoView.xaml 的交互逻辑
     /// </summary>
-    public partial class MainView : UserControl
+    public partial class CargoView : UserControl
     {
-        public MainView()
+        public CargoView()
         {
             InitializeComponent();
-            AppData.MainRegion = this.mainRegion;
-
-            this.DataContext = new MainViewModel();
         }
     }
 }

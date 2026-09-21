@@ -4,6 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WMS.Views"
+             xmlns:vm="clr-namespace:WMS.ViewModels"
+             d:DataContext="{d:DesignInstance vm:MainViewModel}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <UserControl.Resources>
@@ -59,8 +61,18 @@
 
         <StackPanel Orientation="Vertical" Background="LightGreen">
             <TextBlock Text="Main View" Margin="10"/>
-            <RadioButton Content="首页" Tag="🏠" Style="{StaticResource MenuStyle}"/>
-            <RadioButton Content="用户管理" Tag="👤" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="首页" Tag="🏠" Style="{StaticResource MenuStyle}" 
+                         Command="{Binding NavigateCommand}"
+                         CommandParameter="IndexView"/>
+            <RadioButton Content="物资管理" Tag="🛍️" Style="{StaticResource MenuStyle}"
+                         Command="{Binding NavigateCommand}"
+                         CommandParameter="CargoView"/>
+            <RadioButton Content="仓库管理" Tag="🏚️" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="库位管理" Tag="📍" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="客户管理" Tag="👥" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="供应商管理" Tag="👤" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="物资入库" Tag="🛻" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="物资出库" Tag="🛼" Style="{StaticResource MenuStyle}"/>
         </StackPanel>
         <ContentControl x:Name="mainRegion" Grid.Column="1"/>
     </Grid>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Project\Git\Learning\WMS\WMS\App.xaml
-3-1310178928
+51984743206
 
-21-1916223205
+25-1628620353
 242183649447
-MainWindow.xaml;Views\LoginView.xaml;Views\MainView.xaml;
+MainWindow.xaml;Views\CargoView.xaml;Views\IndexView.xaml;Views\LoginView.xaml;Views\MainView.xaml;
 
 False
 
