@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\views\\cargoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\views\\cargoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|solutionrelative:wms\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6233A18E-BF8E-4112-88FB-25D0F11A4631}|WMS\\WMS.csproj|d:\\project\\git\\learning\\wms\\wms\\views\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -54,20 +54,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "WMS\\ViewModels\\MainViewModel.cs",
               "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "WMS\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAABIwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-21T06:25:04.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CargoView.xaml",
               "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Views\\CargoView.xaml",
               "RelativeDocumentMoniker": "WMS\\Views\\CargoView.xaml",
@@ -83,8 +83,8 @@
               "Title": "MainView.xaml",
               "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Views\\MainView.xaml",
               "RelativeDocumentMoniker": "WMS\\Views\\MainView.xaml",
-              "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Views\\MainView.xaml",
-              "RelativeToolTip": "WMS\\Views\\MainView.xaml",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\Views\\MainView.xaml*",
+              "RelativeToolTip": "WMS\\Views\\MainView.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-17T06:02:30.278Z",
               "EditorCaption": ""
@@ -104,13 +104,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMS\\WMS\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "WMS\\ViewModels\\LoginViewModel.cs",
               "ToolTip": "D:\\Project\\Git\\Learning\\WMS\\WMS\\ViewModels\\LoginViewModel.cs",
               "RelativeToolTip": "WMS\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAABQwCEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-17T00:23:05.542Z",
               "EditorCaption": ""

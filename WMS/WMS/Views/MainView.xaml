@@ -29,6 +29,7 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <TextBlock Foreground="{TemplateBinding Foreground}"
+                                       FontFamily="Segoe MDL2 Assets" 
                                        Text="{TemplateBinding Tag}" Margin="5,0,5,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             <TextBlock Grid.Column="1" Foreground="{TemplateBinding Foreground}"
                                        Margin="0,0,5,0" Text="{TemplateBinding Content}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
@@ -61,18 +62,18 @@
 
         <StackPanel Orientation="Vertical" Background="LightGreen">
             <TextBlock Text="Main View" Margin="10"/>
-            <RadioButton Content="首页" Tag="🏠" Style="{StaticResource MenuStyle}" 
+            <RadioButton Content="首页" Tag="&#xEC26;" Style="{StaticResource MenuStyle}" 
                          Command="{Binding NavigateCommand}"
                          CommandParameter="IndexView"/>
-            <RadioButton Content="物资管理" Tag="🛍️" Style="{StaticResource MenuStyle}"
+            <RadioButton Content="物资管理" Tag="&#xE7B8;️" Style="{StaticResource MenuStyle}"
                          Command="{Binding NavigateCommand}"
                          CommandParameter="CargoView"/>
-            <RadioButton Content="仓库管理" Tag="🏚️" Style="{StaticResource MenuStyle}"/>
-            <RadioButton Content="库位管理" Tag="📍" Style="{StaticResource MenuStyle}"/>
-            <RadioButton Content="客户管理" Tag="👥" Style="{StaticResource MenuStyle}"/>
-            <RadioButton Content="供应商管理" Tag="👤" Style="{StaticResource MenuStyle}"/>
-            <RadioButton Content="物资入库" Tag="🛻" Style="{StaticResource MenuStyle}"/>
-            <RadioButton Content="物资出库" Tag="🛼" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="仓库管理" Tag="&#xEA8A;" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="库位管理" Tag="&#xEA5F;" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="客户管理" Tag="&#xE716;" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="供应商管理" Tag="&#xEF58;" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="物资入库" Tag="&#xE976;" Style="{StaticResource MenuStyle}"/>
+            <RadioButton Content="物资出库" Tag="&#xEA44;" Style="{StaticResource MenuStyle}"/>
         </StackPanel>
         <ContentControl x:Name="mainRegion" Grid.Column="1"/>
     </Grid>
