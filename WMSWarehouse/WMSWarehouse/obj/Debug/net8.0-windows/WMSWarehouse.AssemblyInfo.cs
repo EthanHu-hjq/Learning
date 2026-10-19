@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WMSWarehouse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f44b3018da44c7f128b28c71c5b2d9a65cce3919")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ee9ba89c0526846479f3289a42f08926e2935a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("WMSWarehouse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WMSWarehouse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

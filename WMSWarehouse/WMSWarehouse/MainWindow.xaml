@@ -3,10 +3,36 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WMSWarehouse"
+        xmlns:vm="clr-namespace:WMSWarehouse.ViewModels"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="WMS仓库管理系统" Height="600" Width="1000">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
+        <!-- 左侧导航菜单 -->
+        <Border Grid.Column="0" Background="#303030">
+            <StackPanel Margin="10">
+                <TextBlock Text="数据表菜单" Foreground="White" FontSize="16" Margin="0 0 0 10"/>
+                <ListBox ItemsSource="{Binding MenuList}"
+                         Background="Transparent"
+                         BorderThickness="0">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <RadioButton Content="{Binding MenuName}"
+                                         Command="{Binding DataContext.SwitchPageCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                         CommandParameter="{Binding}"
+                                         Foreground="White"
+                                         Margin="0 4"/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+        </Border>
+
+        <!-- 右侧内容容器，切换UserControl -->
+        <ContentControl Grid.Column="1" Content="{Binding CurrentView}" Margin="10"/>
     </Grid>
 </Window>

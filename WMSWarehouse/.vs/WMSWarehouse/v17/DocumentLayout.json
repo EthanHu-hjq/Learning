@@ -1,12 +1,137 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Project\\Git\\Learning\\WMSWarehouse\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|d:\\project\\git\\learning\\wmswarehouse\\wmswarehouse\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|solutionrelative:wmswarehouse\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|d:\\project\\git\\learning\\wmswarehouse\\wmswarehouse\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|solutionrelative:wmswarehouse\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|d:\\project\\git\\learning\\wmswarehouse\\wmswarehouse\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|solutionrelative:wmswarehouse\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|d:\\project\\git\\learning\\wmswarehouse\\wmswarehouse\\views\\warehouseview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|solutionrelative:wmswarehouse\\views\\warehouseview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|d:\\project\\git\\learning\\wmswarehouse\\wmswarehouse\\views\\warehouseview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|solutionrelative:wmswarehouse\\views\\warehouseview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|d:\\project\\git\\learning\\wmswarehouse\\wmswarehouse\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|solutionrelative:wmswarehouse\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|d:\\project\\git\\learning\\wmswarehouse\\wmswarehouse\\viewmodels\\warehouseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DD71A4E-4252-4828-BC34-190DA64B0F1F}|WMSWarehouse\\WMSWarehouse.csproj|solutionrelative:wmswarehouse\\viewmodels\\warehouseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 290,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WMSWarehouse\\App.xaml.cs",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\App.xaml.cs",
+              "RelativeToolTip": "WMSWarehouse\\App.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:49:41.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WMSWarehouse\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WMSWarehouse\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:49:27.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WMSWarehouse\\MainWindow.xaml",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\MainWindow.xaml",
+              "RelativeToolTip": "WMSWarehouse\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-13T07:48:38.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WarehouseView.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\Views\\WarehouseView.xaml.cs",
+              "RelativeDocumentMoniker": "WMSWarehouse\\Views\\WarehouseView.xaml.cs",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\Views\\WarehouseView.xaml.cs",
+              "RelativeToolTip": "WMSWarehouse\\Views\\WarehouseView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:48:11.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WarehouseView.xaml",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\Views\\WarehouseView.xaml",
+              "RelativeDocumentMoniker": "WMSWarehouse\\Views\\WarehouseView.xaml",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\Views\\WarehouseView.xaml",
+              "RelativeToolTip": "WMSWarehouse\\Views\\WarehouseView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-13T07:47:55.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "WMSWarehouse\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "WMSWarehouse\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:47:02.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WarehouseViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\ViewModels\\WarehouseViewModel.cs",
+              "RelativeDocumentMoniker": "WMSWarehouse\\ViewModels\\WarehouseViewModel.cs",
+              "ToolTip": "D:\\Project\\Git\\Learning\\WMSWarehouse\\WMSWarehouse\\ViewModels\\WarehouseViewModel.cs",
+              "RelativeToolTip": "WMSWarehouse\\ViewModels\\WarehouseViewModel.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAiwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:45:09.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -126,3 +126,5 @@ D:\Project\Git\Learning\WMSWarehouse\WMSWarehouse\bin\Debug\net8.0-windows\runti
 D:\Project\Git\Learning\WMSWarehouse\WMSWarehouse\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Project\Git\Learning\WMSWarehouse\WMSWarehouse\obj\Debug\net8.0-windows\WMSWarehouse.csproj.AssemblyReference.cache
 D:\Project\Git\Learning\WMSWarehouse\WMSWarehouse\obj\Debug\net8.0-windows\WMSWareh.64FA97EB.Up2Date
+D:\Project\Git\Learning\WMSWarehouse\WMSWarehouse\obj\Debug\net8.0-windows\Views\WarehouseView.g.cs
+D:\Project\Git\Learning\WMSWarehouse\WMSWarehouse\obj\Debug\net8.0-windows\Views\WarehouseView.baml
